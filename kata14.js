@@ -40,7 +40,6 @@ const urlDecode = function (text) {
     }
   }
   // if we finished iterating through the string and haven't run into any additional special characters, then add the Key and Value to our object
-  theOutput[theKVGate.theKey];
   theOutput[theKVGate.theKey] = theKVGate.theValue;
   // and return it to the user
   return theOutput;
